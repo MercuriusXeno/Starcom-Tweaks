@@ -1,0 +1,3501 @@
+[
+  {
+    "index": 0,
+    "parent": -1
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HULL",
+      "name": "Hull Integrity",
+      "description": "",
+      "researchPoints": 16,
+      "hexColor": "#90c0f0",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": true
+    },
+    "index": 1,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HULL_SIZE_1",
+      "name": "Compact Construction",
+      "description": "Increases the max size of our hull by 15 hexes.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 10,
+      "modifier1": 15.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 2,
+    "parent": 1
+  },
+  {
+    "element": {
+      "id": "DEFAULT.EXPLORER",
+      "name": "Explorer Hull",
+      "description": "Allows construction of Explorer class ships, with a base max hull size of 40.",
+      "researchPoints": 35,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 3,
+    "parent": 2
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HULL_SIZE_2",
+      "name": "Module Logistics",
+      "description": "Increase the max size of our hulls by an additional 30 hexes.",
+      "researchPoints": 45,
+      "hexColor": "",
+      "statModified1": 10,
+      "modifier1": 30.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 4,
+    "parent": 3
+  },
+  {
+    "element": {
+      "id": "DEFAULT.CRUISER",
+      "name": "Cruiser Hull",
+      "description": "Allows construction of Cruiser class ships, with a base max hull size of 75.",
+      "researchPoints": 80,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 5,
+    "parent": 4
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HULL_SIZE_3",
+      "name": "Advanced Logistics",
+      "description": "Increase the max size of our hulls by an additional 45 hexes.",
+      "researchPoints": 50,
+      "hexColor": "",
+      "statModified1": 10,
+      "modifier1": 45.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 6,
+    "parent": 5
+  },
+  {
+    "element": {
+      "id": "DEFAULT.DREADNOUGHT",
+      "name": "Dreadnought Hull",
+      "description": "Allows construction of Dreadnought class ships, with a base max hull size of 125.",
+      "researchPoints": 120,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 7,
+    "parent": 6
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BULKHEADS_2",
+      "name": "Large Bulkheads",
+      "description": "Allows the construction of two and three hex bulkheads.",
+      "researchPoints": 20,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 8,
+    "parent": 1
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ARMOR_1",
+      "name": "Improved Deflectors",
+      "description": "Increases the resistance of deflectors and allows construction of larger deflector modules.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 41,
+      "modifier1": 10.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 9,
+    "parent": 1
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ARMOR_2",
+      "name": "Heavy Deflectors",
+      "description": "Allows construction of stronger deflectors.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 10,
+    "parent": 9
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ARMOR_RESIST_1",
+      "name": "Material Composites",
+      "description": "Additionally increases the resistance of deflector modules.",
+      "researchPoints": 25,
+      "hexColor": "",
+      "statModified1": 41,
+      "modifier1": 15.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 11,
+    "parent": 9
+  },
+  {
+    "element": {
+      "id": "DEFAULT.THERMAL_VIS",
+      "name": "Thermal Analysis",
+      "description": "Allows simulation of ships thermal generation for analysis.",
+      "researchPoints": 7,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 12,
+    "parent": 1
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HEAT_1",
+      "name": "Entropic Shunts",
+      "description": "Increases the rate at which modules dissipate heat to neighbors and/or radiate into space.",
+      "researchPoints": 12,
+      "hexColor": "",
+      "statModified1": 15,
+      "modifier1": 25.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 13,
+    "parent": 12
+  },
+  {
+    "element": {
+      "id": "DEFAULT.EXHAUST",
+      "name": "Exhaust Vents",
+      "description": "Allows us to build modules that cycle enthalpic condensate out into space, increasing heat dissipation.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 14,
+    "parent": 13
+  },
+  {
+    "element": {
+      "id": "DEFAULT.DAMAGE_EFFICACY_1",
+      "name": "Module Hardening",
+      "description": "Decreases the performance penalty of damaged modules.",
+      "researchPoints": 8,
+      "hexColor": "",
+      "statModified1": 17,
+      "modifier1": 25.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 15,
+    "parent": 12
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SWATCH",
+      "name": "Chromaplate",
+      "description": "Allows customization of hull plating colors.",
+      "researchPoints": 10,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.CHROMAPLATE",
+      "irreversible": false
+    },
+    "index": 16,
+    "parent": 1
+  },
+  {
+    "element": {
+      "id": "DEFAULT.REPAIR_1",
+      "name": "Material Memory",
+      "description": "Our modules will retain a memory of their structure, speeding up repairs by 7%.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 11,
+      "modifier1": 7.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.REPAIR_1",
+      "irreversible": false
+    },
+    "index": 17,
+    "parent": 1
+  },
+  {
+    "element": {
+      "id": "DEFAULT.REPAIR_2",
+      "name": "Reactive Nanofibers",
+      "description": "Increase our repair rate by an additional 10%.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 11,
+      "modifier1": 10.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 18,
+    "parent": 17
+  },
+  {
+    "element": {
+      "id": "DEFAULT.CREW_QUARTERS",
+      "name": "Crew Quarters",
+      "description": "Allows the construction of Crew Quarter modules, increasing maximum number of support crew.",
+      "researchPoints": 4,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.SUPPORT",
+      "irreversible": false
+    },
+    "index": 19,
+    "parent": 1
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ENGINES_1",
+      "name": "Engines I",
+      "description": "Engines propel our ship through space. ",
+      "researchPoints": 10,
+      "hexColor": "#007890",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": true
+    },
+    "index": 20,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ENGINES_2",
+      "name": "Engines II",
+      "description": "More powerful engines with greater thrust per hex.",
+      "researchPoints": 26,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 21,
+    "parent": 20
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ENGINES_3",
+      "name": "Engines III",
+      "description": "Huge engines to propel our biggest ships.",
+      "researchPoints": 55,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.ENGINES_3",
+      "irreversible": false
+    },
+    "index": 22,
+    "parent": 21
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ENGINES_THRUST_1",
+      "name": "Ion Drives",
+      "description": "Increases our engine's max thrust.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 25,
+      "modifier1": 10.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 23,
+    "parent": 20
+  },
+  {
+    "element": {
+      "id": "DEFAULT.WARP",
+      "name": "Warp Generator",
+      "description": "Allows building of the Warp Drive module, allowing near instantaneous short tactical jumps.",
+      "researchPoints": 50,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.WARP",
+      "irreversible": false
+    },
+    "index": 24,
+    "parent": 23
+  },
+  {
+    "element": {
+      "id": "DEFAULT.WARP_RANGE_1",
+      "name": "Warp Extension",
+      "description": "Increase the maximum charge of our warp generator by 30%.",
+      "researchPoints": 35,
+      "hexColor": "",
+      "statModified1": 91,
+      "modifier1": 30.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 25,
+    "parent": 24
+  },
+  {
+    "element": {
+      "id": "DEFAULT.WARP_RANGE_2DEFAULT",
+      "name": "Hyperplaning",
+      "description": "Extend our maximum warp charge by an additional 40%.",
+      "researchPoints": 50,
+      "hexColor": "",
+      "statModified1": 91,
+      "modifier1": 40.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 26,
+    "parent": 25
+  },
+  {
+    "element": {
+      "id": "DEFAULT.WARP_CHARGE_1",
+      "name": "Warp Coolant",
+      "description": "Increase the field recharge rate of our warp generator by 20%.",
+      "researchPoints": 40,
+      "hexColor": "",
+      "statModified1": 92,
+      "modifier1": 25.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 27,
+    "parent": 24
+  },
+  {
+    "element": {
+      "id": "DEFAULT.WARP_CHARGE_2",
+      "name": "Warp Multiplex",
+      "description": "Increase the charge rate of our warp generator by an additional 30%.",
+      "researchPoints": 70,
+      "hexColor": "",
+      "statModified1": 92,
+      "modifier1": 30.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 28,
+    "parent": 27
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ENGINES_TURBO",
+      "name": "Turbo Thrust",
+      "description": "Allows our engines to switch to a high energy, low efficiency burn for increased speed. ",
+      "researchPoints": 9,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "irreversible": false
+    },
+    "index": 29,
+    "parent": 20
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HANDLING_1",
+      "name": "Improved Handling",
+      "description": "Increases our ship's turn responsiveness, including both rotational acceleration, stopping and strafe impulse.",
+      "researchPoints": 10,
+      "hexColor": "",
+      "statModified1": 21,
+      "modifier1": 10.0,
+      "statModified2": 28,
+      "modifier2": 25.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 30,
+    "parent": 20
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HANDLING_2",
+      "name": "Advanced Handling",
+      "description": "Additional improvements to turning and lateral movement.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 21,
+      "modifier1": 15.0,
+      "statModified2": 28,
+      "modifier2": 30.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 31,
+    "parent": 30
+  },
+  {
+    "element": {
+      "id": "DEFAULT.VOID_2",
+      "name": "Advanced Void Surfaces",
+      "description": "Allows construction of larger void surface components, for faster deep space travel.",
+      "researchPoints": 10,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 32,
+    "parent": 30
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_1",
+      "name": "Plasma I",
+      "description": "Allows construction of Plasma Mk I turrets",
+      "researchPoints": 8,
+      "hexColor": "#0340A0",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 33,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_DPE_1",
+      "name": "Positron Coating",
+      "description": "Increase the damage per unit of energy of our plasma bolts by 15%.",
+      "researchPoints": 17,
+      "hexColor": "",
+      "statModified1": 102,
+      "modifier1": 15.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 34,
+    "parent": 33
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_2",
+      "name": "Plasma II",
+      "description": "Allows construction of Mk II Plasma Turrets.",
+      "researchPoints": 36,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 35,
+    "parent": 34
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_DPE_2",
+      "name": "Hyperionization",
+      "description": "Increase the damage per unit of energy of our plasma bolts by an additional 20%.",
+      "researchPoints": 55,
+      "hexColor": "",
+      "statModified1": 102,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 36,
+    "parent": 35
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_3",
+      "name": "Plasma Mk III",
+      "description": "Allows construction of Mk III Plasma Turrets.",
+      "researchPoints": 60,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.PLASMA_3",
+      "irreversible": false
+    },
+    "index": 37,
+    "parent": 36
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_RANGE_1",
+      "name": "Plasma Coherence",
+      "description": "Increases the range of our plasma weapons.",
+      "researchPoints": 13,
+      "hexColor": "",
+      "statModified1": 101,
+      "modifier1": 25.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 38,
+    "parent": 33
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_RANGE_2",
+      "name": "Plasma Phase Alignment",
+      "description": "Further increase the range of our plasma projectiles.",
+      "researchPoints": 28,
+      "hexColor": "",
+      "statModified1": 101,
+      "modifier1": 16.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 39,
+    "parent": 38
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_RANGE_3",
+      "name": "Pure Phase Coherence",
+      "description": "Even greater plasma range.",
+      "researchPoints": 60,
+      "hexColor": "",
+      "statModified1": 101,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 40,
+    "parent": 39
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_RANGE_4",
+      "name": "Maximal Cohesion",
+      "description": "Maximized range of our plasma weapons.",
+      "researchPoints": 90,
+      "hexColor": "",
+      "statModified1": 101,
+      "modifier1": 35.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.PLASMA_RANGE_4",
+      "irreversible": false
+    },
+    "index": 41,
+    "parent": 40
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_SPEED_1",
+      "name": "Bolt Accelerator",
+      "description": "Increase the speed of our plasma projectiles.",
+      "researchPoints": 7,
+      "hexColor": "",
+      "statModified1": 104,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 42,
+    "parent": 33
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_FIRE_RATE_1",
+      "name": "Turret Repeater",
+      "description": "Increases the base fire rate of our plasma turrets by 10%.",
+      "researchPoints": 11,
+      "hexColor": "",
+      "statModified1": 106,
+      "modifier1": 10.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 43,
+    "parent": 42
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_SPEED_2DEFAULT",
+      "name": "Plasmoid Impulse",
+      "description": "Additional boost to plasma bolt speed.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 104,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 44,
+    "parent": 43
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_FIRE_RATE_",
+      "name": "Rapid Recoil Recovery",
+      "description": "Increase the fire rate of our plasma turrets by an additional 10%.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 106,
+      "modifier1": 10.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 45,
+    "parent": 44
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_SPEED_3",
+      "name": "Transionic Impulse",
+      "description": "Even faster plasma bolts combined with an additional 10% fire rate.",
+      "researchPoints": 50,
+      "hexColor": "",
+      "statModified1": 104,
+      "modifier1": 20.0,
+      "statModified2": 106,
+      "modifier2": 10.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 46,
+    "parent": 45
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_ROTATE_1",
+      "name": "Frictionless Bearings",
+      "description": "Increase the turn rate of turrets, allowing for faster re-targeting.",
+      "researchPoints": 6,
+      "hexColor": "",
+      "statModified1": 105,
+      "modifier1": 35.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 47,
+    "parent": 33
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_ROTATE_2DEFAULT",
+      "name": "Levitating Gimbals",
+      "description": "Even faster turret rotation, for quicker re-targeting.",
+      "researchPoints": 11,
+      "hexColor": "",
+      "statModified1": 105,
+      "modifier1": 50.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 48,
+    "parent": 47
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_FOCUS",
+      "name": "Plasma Focusing",
+      "description": "Increase the accuracy of our plasma weapons.",
+      "researchPoints": 8,
+      "hexColor": "",
+      "statModified1": 103,
+      "modifier1": 30.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 49,
+    "parent": 33
+  },
+  {
+    "element": {
+      "id": "DEFAULT.PLASMA_FOCUS_2",
+      "name": "Advanced Focusing",
+      "description": "Further increase the accuracy of our plasma weapons.",
+      "researchPoints": 17,
+      "hexColor": "",
+      "statModified1": 103,
+      "modifier1": 50.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 50,
+    "parent": 49
+  },
+  {
+    "element": {
+      "id": "DEFAULT.REACTOR_1",
+      "name": "Reactors I",
+      "description": "Allows construction of Mini Reactors and Antimatter Batteries storage.",
+      "researchPoints": 10,
+      "hexColor": "#BF33FF",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": true
+    },
+    "index": 51,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ENERGY_PROD_1",
+      "name": "Chiralite Recapture",
+      "description": "Increases energy production rate by 7%",
+      "researchPoints": 10,
+      "hexColor": "",
+      "statModified1": 52,
+      "modifier1": 7.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 52,
+    "parent": 51
+  },
+  {
+    "element": {
+      "id": "DEFAULT.REACTOR_2",
+      "name": "Reactors II",
+      "description": "Allow construction of Mk II reactors.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 53,
+    "parent": 52
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ENERGY_PROD_2DEFAULT",
+      "name": "Anti-proton Chains",
+      "description": "Additional 10% boost to energy production.",
+      "researchPoints": 35,
+      "hexColor": "",
+      "statModified1": 52,
+      "modifier1": 10.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 54,
+    "parent": 53
+  },
+  {
+    "element": {
+      "id": "DEFAULT.REACTOR_3",
+      "name": "Reactors III",
+      "description": "Allow construction of Mk III reactors.",
+      "researchPoints": 50,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 55,
+    "parent": 54
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ENERGY_STORAGE_1",
+      "name": "Penning Cage",
+      "description": "Increases our max energy reserves by 7%.",
+      "researchPoints": 7,
+      "hexColor": "",
+      "statModified1": 51,
+      "modifier1": 7.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 56,
+    "parent": 51
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BATTERY_2",
+      "name": "Batteries II",
+      "description": "Allows construction of Mk II batteries with greater reserves.",
+      "researchPoints": 24,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 57,
+    "parent": 56
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ENERGY_STORAGE_2FAULT",
+      "name": "Anti-matter Traps",
+      "description": "Additional 10% increase to max energy reserves.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 51,
+      "modifier1": 10.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 58,
+    "parent": 57
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BATTERY_4",
+      "name": "Batteries III",
+      "description": "Larger, more powerful energy store.",
+      "researchPoints": 40,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 59,
+    "parent": 58
+  },
+  {
+    "element": {
+      "id": "DEFAULT.CREW_SKILLS",
+      "name": "Officer Training",
+      "description": "Our command crew oversees ship operations and carries out anomaly surveys. ",
+      "researchPoints": 20,
+      "hexColor": "#ff2030",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": true
+    },
+    "index": 60,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BATTLESTATIONS",
+      "name": "Battlestation Training",
+      "description": "Allows our crew brief surges in ship repair. Particularly useful for keeping systems operational during combat.",
+      "researchPoints": 10,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 61,
+    "parent": 60
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BATTLESTATIONS_COOLDOWN_1",
+      "name": "Assisted Recovery",
+      "description": "Every crew member with at least 1 Biomed increases Battlestation recovery speed by 10%.\n\nAdditional skill levels on the same officer provide diminishing returns.",
+      "researchPoints": 14,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 62,
+    "parent": 61
+  },
+  {
+    "element": {
+      "id": "DEFAULT.CREW_PLASMA_1",
+      "name": "Plasma Fire Support",
+      "description": "Every crew member with at least 1 Tactics increases Plasma Turret Accuracy by 10% and Plasma Fire Rate by 5%.\n\nAdditional skill levels on the same officer provide diminishing returns.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 63,
+    "parent": 60
+  },
+  {
+    "element": {
+      "id": "DEFAULT.CREW_SCAN_1",
+      "name": "Spatial Partitioning",
+      "description": "Every crew member with at least 1 Observation increases detection range by 5%.\n\nAdditional skill levels on the same officer provide diminishing returns.",
+      "researchPoints": 7,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 64,
+    "parent": 60
+  },
+  {
+    "element": {
+      "id": "DEFAULT.CREW_VIEW_1",
+      "name": "Shared Perspective",
+      "description": "Each command crew member with at least 1 observation increases the maximum viewport range by 5%.\n\nAdditional skill levels on the same officer provide diminishing returns.",
+      "researchPoints": 16,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 65,
+    "parent": 64
+  },
+  {
+    "element": {
+      "id": "DEFAULT.CREW_REPAIR",
+      "name": "Coordinated Response",
+      "description": "Every crew member with at least 1 Engineering increases repair rate by 10%. \n\nAdditional skill levels on the same officer provide diminishing returns.",
+      "researchPoints": 8,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 66,
+    "parent": 60
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MIRACLE_WORKER",
+      "name": "Miracle Worker",
+      "description": "Crew with at least 5 Engineering has a chance of saving ship from catastrophic damage at great personal peril.",
+      "researchPoints": 20,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 67,
+    "parent": 66
+  },
+  {
+    "element": {
+      "id": "DEFAULT.RESOURCE_DROP_1",
+      "name": "Resource Spotters",
+      "description": "Every crew with at least 1 Astro increases the expected value of resource drops by 15%.\n\nAdditional skill levels on the same officer provide diminishing returns.",
+      "researchPoints": 8,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 68,
+    "parent": 60
+  },
+  {
+    "element": {
+      "id": "DEFAULT.ITEM_DROP_1",
+      "name": "Artifact Spotters",
+      "description": "Every crew with at least 2 Astro moderately increases the probability of finding artifact drops.\n\n(Skill beyond 2 provides no additional benefit.)",
+      "researchPoints": 16,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 69,
+    "parent": 68
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SELF_CARE",
+      "name": "Emergency Self-Stabilize",
+      "description": "Any crew with at least 1 Biomed will quickly stabilize themselves up to 20% health when back aboard the ship.",
+      "researchPoints": 7,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 70,
+    "parent": 60
+  },
+  {
+    "element": {
+      "id": "DEFAULT.CREW_SURVIVAL",
+      "name": "First Response",
+      "description": "Every crew member with at least 1 Biomed has a 10% chance of preventing support crew from being critically injured.\r\n\r\nAdditional skill levels on the same officer provide diminishing returns.",
+      "researchPoints": 10,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.SUPPORT",
+      "irreversible": false
+    },
+    "index": 71,
+    "parent": 60
+  },
+  {
+    "element": {
+      "id": "DEFAULT.TRACOR_SPLIT_1",
+      "name": "Tractor Beam Splitter",
+      "description": "Allows our tractor beam system to collect two items at once and increases their attract speed.",
+      "researchPoints": 3,
+      "hexColor": "#50acf0",
+      "statModified1": 81,
+      "modifier1": 1.0,
+      "statModified2": 82,
+      "modifier2": 25.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 72,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.TRACTOR_BOOST_1",
+      "name": "Strange Attractors",
+      "description": "Increases the speed and range of our tractor beams.",
+      "researchPoints": 7,
+      "hexColor": "",
+      "statModified1": 82,
+      "modifier1": 55.0,
+      "statModified2": 83,
+      "modifier2": 40.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 73,
+    "parent": 72
+  },
+  {
+    "element": {
+      "id": "DEFAULT.TRACTOR_STRENGTH_1",
+      "name": "Extra Strong Force",
+      "description": "Additional boost to the attract speed of our tractor beams.",
+      "researchPoints": 8,
+      "hexColor": "",
+      "statModified1": 82,
+      "modifier1": 60.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 74,
+    "parent": 73
+  },
+  {
+    "element": {
+      "id": "DEFAULT.TRACTOR_BOOST_2",
+      "name": "Super Collectors",
+      "description": "Ultra-fast long-range tractor beams.",
+      "researchPoints": 24,
+      "hexColor": "",
+      "statModified1": 82,
+      "modifier1": 85.0,
+      "statModified2": 83,
+      "modifier2": 65.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 75,
+    "parent": 74
+  },
+  {
+    "element": {
+      "id": "DEFAULT.TRACTOR_RANGE_2",
+      "name": "Force Field Projection",
+      "description": "Substantially increases the range of our tractor beams.",
+      "researchPoints": 8,
+      "hexColor": "",
+      "statModified1": 83,
+      "modifier1": 60.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 76,
+    "parent": 73
+  },
+  {
+    "element": {
+      "id": "DEFAULT.TRACTOR_RANGE_1",
+      "name": "Wave Defractor",
+      "description": "An additional tractor beam",
+      "researchPoints": 5,
+      "hexColor": "",
+      "statModified1": 81,
+      "modifier1": 1.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 77,
+    "parent": 72
+  },
+  {
+    "element": {
+      "id": "DEFAULT.GRAVITY_GUN",
+      "name": "Gravity Generator",
+      "description": "Allows construction of a gravity generator module that fires force projectiles which push low-mass targets.",
+      "researchPoints": 25,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.GRAVITY_GUN",
+      "irreversible": false
+    },
+    "index": 78,
+    "parent": 72
+  },
+  {
+    "element": {
+      "id": "DEFAULT.GRAVITY_BOOST",
+      "name": "Gravitational Lens",
+      "description": "Increase the max charge of our gravity generator gun.",
+      "researchPoints": 20,
+      "hexColor": "",
+      "statModified1": 86,
+      "modifier1": 100.0,
+      "statModified2": 87,
+      "modifier2": 80.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 79,
+    "parent": 78
+  },
+  {
+    "element": {
+      "id": "DEFAULT.XENO",
+      "name": "Universal Translators",
+      "description": "Allows us to understand the language of other races and civilizations",
+      "researchPoints": 15,
+      "hexColor": "#ff00a0",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": true
+    },
+    "index": 80,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.TRADE_ANALYSIS",
+      "name": "Trade Analysis",
+      "description": "Shows the relative pricing of resources in trade relative to their base value.",
+      "researchPoints": 8,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.TRADE_ANALYSIS_UNLOCKED",
+      "irreversible": false
+    },
+    "index": 81,
+    "parent": 80
+  },
+  {
+    "element": {
+      "id": "DEFAULT.DETECT_1",
+      "name": "Sensor Calibration",
+      "description": "Increases our detection range by 10%. Minor boost to max viewport range.",
+      "researchPoints": 7,
+      "hexColor": "#05A010",
+      "statModified1": 301,
+      "modifier1": 10.0,
+      "statModified2": 303,
+      "modifier2": 20.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 82,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SCANNER_1",
+      "name": "Scanner Mk I",
+      "description": "Allows construction of a scanner module which will increase our detection range.",
+      "researchPoints": 8,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 83,
+    "parent": 82
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FAST_SURVEYDEFAULT",
+      "name": "Survey Efficiency",
+      "description": "Increase the speed of planetary scans and survey landings.",
+      "researchPoints": 5,
+      "hexColor": "",
+      "statModified1": 401,
+      "modifier1": 25.0,
+      "statModified2": 400,
+      "modifier2": 15.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 84,
+    "parent": 83
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHIP_DETECT_1",
+      "name": "Subscatter Detection",
+      "description": "Increases the range at which we can detect other vessels by 30%.",
+      "researchPoints": 8,
+      "hexColor": "",
+      "statModified1": 302,
+      "modifier1": 30.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 85,
+    "parent": 83
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FOG",
+      "name": "Sensor Histories",
+      "description": "Connects sensor archive data with navcomputer, showing exploration \"fog\" overlay in map view.",
+      "researchPoints": 8,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 86,
+    "parent": 83
+  },
+  {
+    "element": {
+      "id": "DEFAULT.VIEWPORT_1",
+      "name": "Byrol Resolver",
+      "description": "Further extends the maximum range of our viewport zoom.",
+      "researchPoints": 10,
+      "hexColor": "",
+      "statModified1": 303,
+      "modifier1": 30.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 87,
+    "parent": 82
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIXED_1",
+      "name": "Fixed Guns",
+      "description": "Allows the construction of Fixed Guns. Fixed Guns can only fire in the direction they're mounted in, but have longer range and more power than plasma turrets.",
+      "researchPoints": 20,
+      "hexColor": "#2180f0",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.FIXED_GUNS",
+      "irreversible": false
+    },
+    "index": 88,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIXED_RANGE_1",
+      "name": "Coil Projection",
+      "description": "Extends the range and projectile speed of our fixed guns.",
+      "researchPoints": 20,
+      "hexColor": "",
+      "statModified1": 121,
+      "modifier1": 20.0,
+      "statModified2": 122,
+      "modifier2": 10.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 89,
+    "parent": 88
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIXED_2",
+      "name": "Fixed Guns Mk II",
+      "description": "Allows construction of more powerful Fixed Guns that are able to draw more energy per shot for greater damage.",
+      "researchPoints": 40,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 90,
+    "parent": 89
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIXED_RANGE_2",
+      "name": "Lunar Waneshafts",
+      "description": "Further increases the range and speed of our fixed guns.",
+      "researchPoints": 45,
+      "hexColor": "",
+      "statModified1": 121,
+      "modifier1": 25.0,
+      "statModified2": 122,
+      "modifier2": 15.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 91,
+    "parent": 90
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIXED_DPE_1",
+      "name": "Bolt Dephasement",
+      "description": "Increases the damage per unit energy of our fixed guns.",
+      "researchPoints": 12,
+      "hexColor": "",
+      "statModified1": 123,
+      "modifier1": 10.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 92,
+    "parent": 88
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIXED_DPE_2",
+      "name": "Hyperthermal Bolts",
+      "description": "Further increases the damage per unit energy of our fixed guns.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 123,
+      "modifier1": 15.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 93,
+    "parent": 92
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIXED_ASSIST_1",
+      "name": "Target Assist",
+      "description": "Redirects our fixed gun projectiles by several degrees towards the nearest target, improving fire accuracy.",
+      "researchPoints": 9,
+      "hexColor": "",
+      "statModified1": 124,
+      "modifier1": 50.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 94,
+    "parent": 88
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIXED_ASSIST_2",
+      "name": "Magnetic Alignment",
+      "description": "Additional fire accuracy assist.",
+      "researchPoints": 18,
+      "hexColor": "",
+      "statModified1": 124,
+      "modifier1": 60.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 95,
+    "parent": 94
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIXED_PUNCHTHRU_1",
+      "name": "Vorpal Bolts",
+      "description": "If our fixed gun shots hit a module or target below a certain health percent, they will continue through to whatever is behind.",
+      "researchPoints": 25,
+      "hexColor": "",
+      "statModified1": 125,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 96,
+    "parent": 88
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIXED_PUNCHTHRU_2",
+      "name": "Enhanced Penetrators",
+      "description": "Allow our fixed gun projectiles to punch-through targets with higher health.",
+      "researchPoints": 35,
+      "hexColor": "",
+      "statModified1": 125,
+      "modifier1": 25.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 97,
+    "parent": 96
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIXED_CANNON",
+      "name": "Cannon Projectiles",
+      "description": "Allows an alternate fire mode of our fixed guns, with higher energy cost, slower rate of fire, but much greater damage that falls off over distance.",
+      "researchPoints": 35,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.FIXED_CANNON",
+      "irreversible": false
+    },
+    "index": 98,
+    "parent": 88
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HAVOK_1",
+      "name": "Havok I",
+      "description": "Havok modules create a temporary perimeter of explosive bursts around our vessel. Particularly effective against missiles, drones and other unarmored targets.",
+      "researchPoints": 24,
+      "hexColor": "#cfa070",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.HAVOK_TECH",
+      "irreversible": false
+    },
+    "index": 99,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HAVOK_FIRERATE_1",
+      "name": "Perimeter Enhancement",
+      "description": "Accelerates the fire rate and projectile speed of our Havok modules.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 165,
+      "modifier1": 20.0,
+      "statModified2": 162,
+      "modifier2": 30.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 100,
+    "parent": 99
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HAVOK_FIRERATE_2",
+      "name": "Burst Synchronization",
+      "description": "Additional increase in the fire rate and projectile speed of our Havok modules.",
+      "researchPoints": 45,
+      "hexColor": "",
+      "statModified1": 165,
+      "modifier1": 25.0,
+      "statModified2": 162,
+      "modifier2": 50.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 101,
+    "parent": 100
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HAVOK_DPS",
+      "name": "Burst Intensification",
+      "description": "Increases the damage of our Havok Bursts",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 163,
+      "modifier1": 15.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 102,
+    "parent": 99
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HAVOK_DURATION_1",
+      "name": "Sustained Fire Control ",
+      "description": "Increase the duration of a Havok volley by 2.5 seconds and reduces cool down time by 10%.",
+      "researchPoints": 18,
+      "hexColor": "",
+      "statModified1": 168,
+      "modifier1": 2.5,
+      "statModified2": 167,
+      "modifier2": 10.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 103,
+    "parent": 99
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HAVOK_DURATION_2",
+      "name": "Control Extension",
+      "description": "Increase the duration of a Havok volley by an additional 3 seconds.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 168,
+      "modifier1": 3.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 104,
+    "parent": 103
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HAVOK_COOLDOWN_1",
+      "name": "Havok Coolant",
+      "description": "Reduces the cooldown time of our Havok modules by 20%.",
+      "researchPoints": 17,
+      "hexColor": "",
+      "statModified1": 167,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 105,
+    "parent": 103
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HAVOK_COOLDOWN_2",
+      "name": "Burst BEC Cooling",
+      "description": "Additional 20% cooldown rate for our Havok modules.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 167,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 106,
+    "parent": 105
+  },
+  {
+    "element": {
+      "id": "DEFAULT.HAVOK_SHROUD",
+      "name": "Havok Shroud",
+      "description": "Allows an alternate weaponized version of the Havok, launching a mass of independently targeted projectiles.",
+      "researchPoints": 50,
+      "hexColor": "",
+      "statModified1": 172,
+      "modifier1": 50.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.HAVOK_SHROUD",
+      "irreversible": false
+    },
+    "index": 107,
+    "parent": 99
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHROUD_ENHANCE",
+      "name": "Shroud Enhancement",
+      "description": "Havok Shroud fires two additional projectiles.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 173,
+      "modifier1": 2.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 108,
+    "parent": 107
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_1",
+      "name": "Missiles I",
+      "description": "Allows the construction of missile modules, which fire long-range targeted projectiles.\n\n",
+      "researchPoints": 30,
+      "hexColor": "#cf4000",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.MISSILE_TECH",
+      "irreversible": false
+    },
+    "index": 109,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_RANGE_1",
+      "name": "Deuterium Propellant",
+      "description": "Increase the range and speed of our missiles by 10%.",
+      "researchPoints": 17,
+      "hexColor": "",
+      "statModified1": 111,
+      "modifier1": 10.0,
+      "statModified2": 112,
+      "modifier2": 10.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 110,
+    "parent": 109
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_RANGE_2",
+      "name": "Burn Efficiency",
+      "description": "Additional 15% missile range.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 111,
+      "modifier1": 15.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 111,
+    "parent": 110
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_RANGE_3DEFAULT",
+      "name": "Standoff Missiles",
+      "description": "Additional 20% missile range.",
+      "researchPoints": 50,
+      "hexColor": "",
+      "statModified1": 111,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 112,
+    "parent": 111
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_TURN_1",
+      "name": "Gimbaled Thrust",
+      "description": "Improves our missile's turn rate, allowing for better target tracking.",
+      "researchPoints": 11,
+      "hexColor": "",
+      "statModified1": 115,
+      "modifier1": 17.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 113,
+    "parent": 109
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_TURN_2",
+      "name": "Nano-Vernier Stabilizers",
+      "description": "Faster missiles turning.",
+      "researchPoints": 26,
+      "hexColor": "",
+      "statModified1": 115,
+      "modifier1": 30.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 114,
+    "parent": 113
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_TURN_3",
+      "name": "Reactive Ion Thrust",
+      "description": "Faster missiles turning.",
+      "researchPoints": 48,
+      "hexColor": "",
+      "statModified1": 115,
+      "modifier1": 45.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 115,
+    "parent": 114
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_DAMAGE_1",
+      "name": "Improved Yields",
+      "description": "Increase the damage of our missiles by 10%.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 114,
+      "modifier1": 10.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 116,
+    "parent": 109
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_DAMAGE_2",
+      "name": "Enhanced Warheads",
+      "description": "Additional 20% damage to missile yields.",
+      "researchPoints": 35,
+      "hexColor": "",
+      "statModified1": 114,
+      "modifier1": 15.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 117,
+    "parent": 116
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILE_HARDENING_1",
+      "name": "Ablative Casing",
+      "description": "Gives our missiles an ablative shell that has a chance of stopping incoming damage.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 119,
+      "modifier1": 2.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 118,
+    "parent": 109
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILE_DEPHASE_1",
+      "name": "Dephased Missiles",
+      "description": "Our missiles will dephase briefly, making them difficult to shoot down.",
+      "researchPoints": 20,
+      "hexColor": "",
+      "statModified1": 118,
+      "modifier1": 35.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.MISSILE_DEPHASE",
+      "irreversible": false
+    },
+    "index": 119,
+    "parent": 109
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILE_DEPHASE_2",
+      "name": "Advanced Dephasing",
+      "description": "Increases our missiles' dephase duration.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 118,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 120,
+    "parent": 119
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_SWARM",
+      "name": "Swarm Missiles",
+      "description": "Our missiles separate after launch into two smaller warheads with evasive approach patterns, making them harder to shoot down.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.MISSILES_SWARM",
+      "irreversible": false
+    },
+    "index": 121,
+    "parent": 109
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_SWARM_BONUS",
+      "name": "Trinity Warheads",
+      "description": "Our swarm missiles will separate into three warheads instead of two for 50% more damage.",
+      "researchPoints": 45,
+      "hexColor": "",
+      "statModified1": 116,
+      "modifier1": 1.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 122,
+    "parent": 121
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_FISSION",
+      "name": "Fission Missiles",
+      "description": "Allows switching to more powerful fission warheads. Fission warheads consume uranium, have a slower production time and fewer per launcher, but are significantly more powerful.",
+      "researchPoints": 40,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.MISSILES_FISSION",
+      "irreversible": false
+    },
+    "index": 123,
+    "parent": 109
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIGHTERS",
+      "name": "Fighter Drones",
+      "description": "Allows the construction of a fighter drone hangar.\n\nFighters cost 1 unit of Aluminum for a squadron of 5.",
+      "researchPoints": 40,
+      "hexColor": "#8999A9",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.FIGHTER_TECH",
+      "irreversible": false
+    },
+    "index": 124,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIGHTERS_SPEED_1",
+      "name": "Fast Attack Fighters",
+      "description": "Increases our fighters attack speed, reaching their target faster and making them harder to hit.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 152,
+      "modifier1": 20.0,
+      "statModified2": 156,
+      "modifier2": 30.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 125,
+    "parent": 124
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIGHTERS_EVASION_1",
+      "name": "Evasive Fighters",
+      "description": "Our fighters become harder for projectile weapons to hit, lasting longer in the fight.",
+      "researchPoints": 24,
+      "hexColor": "",
+      "statModified1": 156,
+      "modifier1": 75.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 126,
+    "parent": 125
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIGHTERS_EVASION_2",
+      "name": "Advanced Maneuvers",
+      "description": "Additional increase to our fighters ability to evade enemy projectiles.",
+      "researchPoints": 40,
+      "hexColor": "",
+      "statModified1": 156,
+      "modifier1": 100.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 127,
+    "parent": 126
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIGHTERS_PROD_1",
+      "name": "Carrier Machine Shop",
+      "description": "Increases the rate of fighter drone production by 30%.",
+      "researchPoints": 24,
+      "hexColor": "",
+      "statModified1": 157,
+      "modifier1": 30.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 128,
+    "parent": 124
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIGHTER_FAB",
+      "name": "Carrier Efficiency",
+      "description": "Further increase fighter production rate.",
+      "researchPoints": 50,
+      "hexColor": "",
+      "statModified1": 157,
+      "modifier1": 40.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 129,
+    "parent": 128
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIGHTERS_SQUADRONS",
+      "name": "Deck Elevators",
+      "description": "Increases our maximum squadrons by 1.",
+      "researchPoints": 70,
+      "hexColor": "",
+      "statModified1": 159,
+      "modifier1": 1.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 130,
+    "parent": 129
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIGHTERS_COUNT_1",
+      "name": "Large Squadrons",
+      "description": "Increase the size of our fighter squadrons by 2.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 158,
+      "modifier1": 2.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 131,
+    "parent": 124
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIGHTERS_HEALTH_1",
+      "name": "Reinforced Fighters",
+      "description": "Increases the amount of damage fighters can take before being destroyed.",
+      "researchPoints": 20,
+      "hexColor": "",
+      "statModified1": 155,
+      "modifier1": 200.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 132,
+    "parent": 124
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FIGHTERS_HEAVY",
+      "name": "Heavy Fighters",
+      "description": "Increase our fighters' attack and armor, at the cost of lower top speed.",
+      "researchPoints": 60,
+      "hexColor": "",
+      "statModified1": 155,
+      "modifier1": 500.0,
+      "statModified2": 153,
+      "modifier2": 40.0,
+      "statModified3": 152,
+      "modifier3": -20.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 133,
+    "parent": 132
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BEAMS_1",
+      "name": "Lasers I",
+      "description": "Allows construction of laser modules, which fire a highly concentrated beam at the target.",
+      "researchPoints": 32,
+      "hexColor": "#ffc030",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.BEAM_TECH",
+      "irreversible": false
+    },
+    "index": 134,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BEAM_DPE_1",
+      "name": "Super Luminescence",
+      "description": "Increases the damage our lasers deliver per unit of energy.",
+      "researchPoints": 20,
+      "hexColor": "",
+      "statModified1": 132,
+      "modifier1": 10.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 135,
+    "parent": 134
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BEAM_DPE_2",
+      "name": "Beam Power Scaling",
+      "description": "Further increases the damage delivered per unit of energy.",
+      "researchPoints": 44,
+      "hexColor": "",
+      "statModified1": 132,
+      "modifier1": 15.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 136,
+    "parent": 135
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BEAM_RANGE_SPEED",
+      "name": "Advanced Optics",
+      "description": "Increases the maximum range and target acquisition speed of our lasers.",
+      "researchPoints": 24,
+      "hexColor": "",
+      "statModified1": 131,
+      "modifier1": 10.0,
+      "statModified2": 133,
+      "modifier2": 20.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 137,
+    "parent": 134
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BEAM_RECRUIT_1",
+      "name": "Virtual Lensing",
+      "description": "Decreases the time our lasers need to acquire and begin firing on a target.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 133,
+      "modifier1": 30.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 138,
+    "parent": 134
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BEAM_RECRUIT_2",
+      "name": "Neural Assist Optics",
+      "description": "Even faster laser acquisition speed.",
+      "researchPoints": 32,
+      "hexColor": "",
+      "statModified1": 133,
+      "modifier1": 40.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 139,
+    "parent": 138
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BEAM_RECRUIT_3",
+      "name": "Femto Acquisition",
+      "description": "Super-fast laser acquisition speed.",
+      "researchPoints": 40,
+      "hexColor": "",
+      "statModified1": 133,
+      "modifier1": 50.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 140,
+    "parent": 139
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BEAM_PENETRATE_1",
+      "name": "Precision Penetration",
+      "description": "Allows beams to shoot through partially damaged modules to reach a targeted component.",
+      "researchPoints": 30,
+      "hexColor": "",
+      "statModified1": 134,
+      "modifier1": 200.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.BEAM_PENETRATE_1",
+      "irreversible": false
+    },
+    "index": 141,
+    "parent": 138
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BEAM_RANGE_1",
+      "name": "Trielectric Permitivity",
+      "description": "Increases the maximum effective range of our lasers.",
+      "researchPoints": 16,
+      "hexColor": "",
+      "statModified1": 131,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 142,
+    "parent": 134
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BEAM_RANGE_2",
+      "name": "Optical Vortices",
+      "description": "Additional increase in laser range.",
+      "researchPoints": 40,
+      "hexColor": "",
+      "statModified1": 131,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 143,
+    "parent": 142
+  },
+  {
+    "element": {
+      "id": "DEFAULT.BEAM_RANGE_3",
+      "name": "Beam Supercohesion",
+      "description": "Maximum laser range",
+      "researchPoints": 70,
+      "hexColor": "",
+      "statModified1": 131,
+      "modifier1": 30.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 144,
+    "parent": 143
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHIELDS_1",
+      "name": "Shields I",
+      "description": "",
+      "researchPoints": 30,
+      "hexColor": "#30ffa5",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.SHIELD_TECH",
+      "irreversible": false
+    },
+    "index": 145,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHIELDS_MAX_1",
+      "name": "Shield Harmonics",
+      "description": "Increase the max charge of our shields by 10%.",
+      "researchPoints": 20,
+      "hexColor": "",
+      "statModified1": 211,
+      "modifier1": 10.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 146,
+    "parent": 145
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHIELDS_MAX_2",
+      "name": "Field Capacitance",
+      "description": "Increase our max shield charge by an additional 20%.",
+      "researchPoints": 40,
+      "hexColor": "",
+      "statModified1": 211,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.SHIELD_MAX_2",
+      "irreversible": false
+    },
+    "index": 147,
+    "parent": 146
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHIELDS_RECHARGE_1",
+      "name": "Quantum Flux",
+      "description": "Increases the recharge rate of our shields by 15%.",
+      "researchPoints": 24,
+      "hexColor": "",
+      "statModified1": 212,
+      "modifier1": 15.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 148,
+    "parent": 145
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHIELDS_RECHARGE_2",
+      "name": "Rapid Energizers",
+      "description": "Increase our shield recharge rate by an additional 15%.",
+      "researchPoints": 50,
+      "hexColor": "",
+      "statModified1": 212,
+      "modifier1": 15.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 149,
+    "parent": 148
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHIELDS_ENERGY_1",
+      "name": "Field Inductance",
+      "description": "Reduce the energy cost of shield charging by 20%.",
+      "researchPoints": 10,
+      "hexColor": "",
+      "statModified1": 214,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 150,
+    "parent": 145
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHIELD_DECAY_1",
+      "name": "Force Field Enthalpy",
+      "description": "Slow the amount by which our shields naturally discharge when energized.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 213,
+      "modifier1": -75.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 151,
+    "parent": 145
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHIELDS_DECAY_2",
+      "name": "Integral Field Theory",
+      "description": "Further decrease our shields natural discharge rate.",
+      "researchPoints": 25,
+      "hexColor": "",
+      "statModified1": 213,
+      "modifier1": -100.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 152,
+    "parent": 151
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHIELD_DECAY_3",
+      "name": "Tensor Stability",
+      "description": "Slow our shields natural decay even further.",
+      "researchPoints": 40,
+      "hexColor": "",
+      "statModified1": 213,
+      "modifier1": -200.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 153,
+    "parent": 152
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SHIELDS_REFLECT",
+      "name": "Plasma Reflection",
+      "description": "Most of the energy of plasma projectiles is reflected away.",
+      "researchPoints": 40,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.SHIELDS_REFLECT",
+      "irreversible": false
+    },
+    "index": 154,
+    "parent": 145
+  },
+  {
+    "element": {
+      "id": "DEFAULT.FALLEN",
+      "name": "Fallen Empire",
+      "description": "Technologies of the Fallen Empire",
+      "researchPoints": 30,
+      "hexColor": "#60cfff",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "REMNANT_SPACE.FALLEN_TECH",
+      "irreversible": false
+    },
+    "index": 155,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.REPAIR_DROP_RATE_1",
+      "name": "Nanite Recovery",
+      "description": "Increases the chance of recovering nanite superfluids from enemy ships. ",
+      "researchPoints": 10,
+      "hexColor": "",
+      "statModified1": 13,
+      "modifier1": 50.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 156,
+    "parent": 155
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NANITE_EFFICIENCYDEFAULT",
+      "name": "Nanite Efficiency",
+      "description": "Improves the amount of repair from nanite superfluid drops by 50%.",
+      "researchPoints": 20,
+      "hexColor": "",
+      "statModified1": 12,
+      "modifier1": 50.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.NANITE_EFFICIENCY",
+      "irreversible": false
+    },
+    "index": 157,
+    "parent": 156
+  },
+  {
+    "element": {
+      "id": "DEFAULT.IMPERIAL_BLIGHT",
+      "name": "Imperial Blight",
+      "description": "Research how to genetically modify the \"imperial blight\". ",
+      "researchPoints": 3,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "FALLEN.IMPERIAL_BOTANY",
+      "irreversible": false
+    },
+    "index": 158,
+    "parent": 155
+  },
+  {
+    "element": {
+      "id": "DEFAULT.EMP_RESIST",
+      "name": "EMP Resistance",
+      "description": "Reduce the duration and intensity of EMP burst effects by 20%.",
+      "researchPoints": 15,
+      "hexColor": "",
+      "statModified1": 271,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.EMP_RESIST",
+      "irreversible": false
+    },
+    "index": 159,
+    "parent": 155
+  },
+  {
+    "element": {
+      "id": "DEFAULT.RAD_RESIST",
+      "name": "Radiation Resistance",
+      "description": "Decrease the risk to our crew from the Devout's radiation attacks.",
+      "researchPoints": 7,
+      "hexColor": "",
+      "statModified1": 272,
+      "modifier1": 100.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.RADIATION_RESIST",
+      "irreversible": false
+    },
+    "index": 160,
+    "parent": 155
+  },
+  {
+    "element": {
+      "id": "DEFAULT.REMNANT",
+      "name": "Wormhole Gateways",
+      "description": "Understanding of how to activate the Remnant Gateway artifacts.",
+      "researchPoints": 40,
+      "hexColor": "#001039",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.GATEWAY_TECH",
+      "irreversible": true
+    },
+    "index": 161,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.STARLANCE",
+      "name": "Starlance Equation",
+      "description": "Solve the equation that Capt. Dolson's team uncovered.",
+      "researchPoints": 1,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "CEPHEID.STARLANCE_TECH",
+      "irreversible": true
+    },
+    "index": 162,
+    "parent": 161
+  },
+  {
+    "element": {
+      "id": "DEFAULT.SINGULARITY",
+      "name": "Spacetime Censor",
+      "description": "Should hopefully allow safe passage through an immodest singularity.",
+      "researchPoints": 5,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "VACUUM_DECAY.CENSOR",
+      "irreversible": true
+    },
+    "index": 163,
+    "parent": 162
+  },
+  {
+    "element": {
+      "id": "DEFAULT.EXPERIMENTAL",
+      "name": "Experimental Modules",
+      "description": "Experiment with using cosmetic modules that currently have not been added to the tech tree. Many of these do not have implemented functionality.",
+      "researchPoints": 20,
+      "hexColor": "#101010",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.EXPERIMENTAL",
+      "irreversible": false
+    },
+    "index": 164,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.DEV",
+      "name": "Dev Tech",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 0,
+      "modifier1": 0.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.DEV",
+      "irreversible": false
+    },
+    "index": 165,
+    "parent": 0
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_EMP",
+      "name": "EMP Missiles",
+      "description": "Allows NPCs to use EMP missiles",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 1302,
+      "modifier1": 33.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 166,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.MISSILES_RADIATION",
+      "name": "Radiation Missiles",
+      "description": "Allows NPCs to fire radiation missiles.",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 1301,
+      "modifier1": 20.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "DEFAULT.DEV",
+      "irreversible": false
+    },
+    "index": 167,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.DEV_TOUGH_1",
+      "name": "NPC Toughness 1",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 40,
+      "modifier1": 15.0,
+      "statModified2": 41,
+      "modifier2": 15.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 168,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.DEV_TOUGH_2",
+      "name": "NPC Toughness 2",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 40,
+      "modifier1": 20.0,
+      "statModified2": 41,
+      "modifier2": 20.0,
+      "statModified3": 11,
+      "modifier3": 10.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 169,
+    "parent": 168
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_PLASMA_1",
+      "name": "NPC Plasma Range",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 104,
+      "modifier1": 15.0,
+      "statModified2": 101,
+      "modifier2": 30.0,
+      "statModified3": 105,
+      "modifier3": 15.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 170,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_PLASMA_DAMAGE_1",
+      "name": "NPC Plasma Damage 1",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 102,
+      "modifier1": 20.0,
+      "statModified2": 106,
+      "modifier2": 15.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 171,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_MISSILE_RANGE_1",
+      "name": "NPC Missile Range 1",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 111,
+      "modifier1": 20.0,
+      "statModified2": 112,
+      "modifier2": 10.0,
+      "statModified3": 115,
+      "modifier3": 10.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 172,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_MISSILE_RANGE_2DEFAULT",
+      "name": "NPC Missile Range 2",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 111,
+      "modifier1": 25.0,
+      "statModified2": 112,
+      "modifier2": 15.0,
+      "statModified3": 115,
+      "modifier3": 15.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 173,
+    "parent": 172
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_MISSILE_DAMAGE_1",
+      "name": "NPC Missile Damage 1",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 114,
+      "modifier1": 25.0,
+      "statModified2": 119,
+      "modifier2": 1.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 174,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_FIXED_RANGE_1",
+      "name": "NPC Fixed Range 1",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 121,
+      "modifier1": 20.0,
+      "statModified2": 122,
+      "modifier2": 15.0,
+      "statModified3": 124,
+      "modifier3": 15.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 175,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_FIXED_DAMAGE_1",
+      "name": "NPC Fixed Damage 1",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 123,
+      "modifier1": 20.0,
+      "statModified2": 124,
+      "modifier2": 15.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 176,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_BEAMS_1",
+      "name": "NPC Beams 1",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 131,
+      "modifier1": 25.0,
+      "statModified2": 133,
+      "modifier2": 20.0,
+      "statModified3": 132,
+      "modifier3": 15.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 177,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_BEAMS_2",
+      "name": "NPC Beams 2",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 131,
+      "modifier1": 25.0,
+      "statModified2": 132,
+      "modifier2": 15.0,
+      "statModified3": 133,
+      "modifier3": 20.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 178,
+    "parent": 177
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_SHIELDS_1",
+      "name": "NPC Shields 1",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 211,
+      "modifier1": 25.0,
+      "statModified2": 212,
+      "modifier2": 30.0,
+      "statModified3": 213,
+      "modifier3": -250.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 179,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_SHIELDS_2",
+      "name": "NPC Shields 2",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 211,
+      "modifier1": 40.0,
+      "statModified2": 212,
+      "modifier2": 40.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 180,
+    "parent": 179
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_DRONES_1",
+      "name": "NPC Drones 1",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 151,
+      "modifier1": 25.0,
+      "statModified2": 152,
+      "modifier2": 25.0,
+      "statModified3": 156,
+      "modifier3": 3.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 181,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_DAMAGE_NERF",
+      "name": "NPC Energy Damage Nerf",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 102,
+      "modifier1": -50.0,
+      "statModified2": 132,
+      "modifier2": -50.0,
+      "statModified3": 123,
+      "modifier3": -50.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 182,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.NPC_NERF",
+      "name": "NPC Hull Nerf",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 40,
+      "modifier1": -200.0,
+      "statModified2": 41,
+      "modifier2": -100.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 183,
+    "parent": 165
+  },
+  {
+    "element": {
+      "id": "DEFAULT.DEV_ZOOM",
+      "name": "Dev Zoom",
+      "description": "",
+      "researchPoints": 0,
+      "hexColor": "",
+      "statModified1": 303,
+      "modifier1": 500.0,
+      "statModified2": 0,
+      "modifier2": 0.0,
+      "statModified3": 0,
+      "modifier3": 0.0,
+      "requiredFlag": "",
+      "irreversible": false
+    },
+    "index": 184,
+    "parent": 165
+  }
+]
