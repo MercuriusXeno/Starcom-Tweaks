@@ -1,0 +1,19 @@
+// #384 GetResourceDrop
+	// Token: 0x06000DEC RID: 3564 RVA: 0x0005038C File Offset: 0x0004E58C
+	public Drop GetResourceDrop(Resource dropResource, int amount, string analyticsSourceId)
+	{
+		ResourceInfo resourceInfo = ContentManager.GetResourceInfo(dropResource);
+		if (resourceInfo.dropPrefab == null)
+		{
+			Debug.LogWarning("No drop prefab for " + resourceInfo.resource.ToString());
+			return null;
+		}
+		ResourceDrop resourceDrop = UnityEngine.Object.Instantiate<ResourceDrop>(resourceInfo.dropPrefab, base.Game.transientContainer);
+		resourceDrop.resource = dropResource;
+		resourceDrop.analyticsSourceId = analyticsSourceId;
+		// add random quantity to the resource quantity dropped by the base amount and some multipliers
+		resourceDrop.Quantity = UnityEngine.Random.Range(3 * amount, 8 * amount + 1);
+		resourceDrop.GameWorld = base.GameWorld;
+		this.liveDrops.Add(resourceDrop);
+		return resourceDrop;
+	}
